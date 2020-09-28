@@ -5,85 +5,45 @@ export default function ActivityFeed() {
         <ul className="widget w-activity-feed notification-list">
             <li>
                 <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar49-sm.jpg" alt="author" />
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1595399874399-10f2444c4eb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                 </div>
                 <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Marina Polson</a> commented on Jason Mark’s <a href="#" className="notification-link">photo.</a>.
+                    <a href="#" className="h6 notification-friend">Marin Polson</a> commented on <a href="#" className="notification-link">Node Js Course.</a>.
       <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">2 mins ago</time></span>
                 </div>
             </li>
             <li>
                 <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar9-sm.jpg" alt="author" />
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1569466896818-335b1bedfcce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                 </div>
                 <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Jake Parker </a> liked Nicholas Grissom’s <a href="#" className="notification-link">status update.</a>.
+                    <a href="#" className="h6 notification-friend">Jake Parker </a> liked <a href="#" className="notification-link">React course.</a>.
       <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">5 mins ago</time></span>
                 </div>
             </li>
             <li>
                 <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar50-sm.jpg" alt="author" />
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1585925130019-eeafcd31b7f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                 </div>
                 <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Mary Jane Stark </a> added 20 new photos to her <a href="#" className="notification-link">gallery album.</a>.
+                    <a href="#" className="h6 notification-friend">Mary Jane Stark </a> commented on  <a href="#" className="notification-link">Algorithm Course.</a>.
       <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">12 mins ago</time></span>
                 </div>
             </li>
             <li>
                 <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar51-sm.jpg" alt="author" />
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                 </div>
                 <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Nicholas Grissom </a> updated his profile <a href="#" className="notification-link">photo</a>.
+                    <a href="#" className="h6 notification-friend">Nicholas Grissom </a> given a review on <a href="#" className="notification-link">photoshop Course</a>.
       <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">1 hour ago</time></span>
                 </div>
             </li>
-            <li>
-                <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar48-sm.jpg" alt="author" />
-                </div>
-                <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Marina Valentine </a> commented on Chris Greyson’s <a href="#" className="notification-link">status update</a>.
-      <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">1 hour ago</time></span>
-                </div>
-            </li>
-            <li>
-                <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar52-sm.jpg" alt="author" />
-                </div>
-                <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Green Goo Rock </a> posted a <a href="#" className="notification-link">status update</a>.
-      <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">1 hour ago</time></span>
-                </div>
-            </li>
-            <li>
-                <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar10-sm.jpg" alt="author" />
-                </div>
-                <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Elaine Dreyfuss</a> liked your <a href="#" className="notification-link">blog post</a>.
-      <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">2 hours ago</time></span>
-                </div>
-            </li>
-            <li>
-                <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar10-sm.jpg" alt="author" />
-                </div>
-                <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Elaine Dreyfuss</a> commented on your <a href="#" className="notification-link">blog post</a>.
-      <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">2 hours ago</time></span>
-                </div>
-            </li>
-            <li>
-                <div className="author-thumb">
-                    <img loading="lazy" src="img/avatar53-sm.jpg" alt="author" />
-                </div>
-                <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">Bruce Peterson </a> changed his <a href="#" className="notification-link">profile picture</a>.
-      <span className="notification-date"><time className="entry-date updated" dateTime="2004-07-24T18:18">15 hours ago</time></span>
-                </div>
-            </li>
+
+
+
+
+
         </ul>
 
     )

@@ -1,5 +1,6 @@
 import React from "react";
-
+import Logo from "../../../Logo/TLogo.jpg";
+import "../../../App.css";
 export default function Header() {
     return (
         <div
@@ -10,16 +11,16 @@ export default function Header() {
                 <div className="header--standard-wrap">
                     <a href="#" className="logo">
                         <div className="img-wrap">
-                            <img loading="lazy" src="" alt="Olympus" />
+                            <img loading="lazy" src={Logo} alt="Tela Coach" className="TelaCoach1" />
                             <img
                                 loading="lazy"
-                                src=""
-                                alt="Olympus"
+                                src={Logo}
+                                alt="Tela Coach"
                                 className="logo-colored"
                             />
                         </div>
                         <div className="title-block">
-                            <h6 className="logo-title">olympus</h6>
+                            <h6 className="logo-title">Tela Coach</h6>
                             <div className="sub-title">SOCIAL NETWORK</div>
                         </div>
                     </a>
@@ -31,12 +32,12 @@ export default function Header() {
                     <div className="nav nav-pills nav1 header-menu">
                         <div className="mCustomScrollbar">
                             <ul>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <a href="#" className="nav-link">
                                         Home
                   </a>
-                                </li>
-                                <li className="nav-item dropdown">
+                                </li> */}
+                                {/* <li className="nav-item dropdown">
                                     <a
                                         className="nav-link dropdown-toggle"
                                         data-hover="dropdown"
@@ -56,12 +57,12 @@ export default function Header() {
                                         <a className="dropdown-item" href="#">
                                             Newsfeed
                     </a>
-                                        <a className="dropdown-item" href="#">
+                                        {/* <a className="dropdown-item" href="#">
                                             Post Versions
-                    </a>
-                                    </div>
-                                </li>
-                                <li className="nav-item dropdown dropdown-has-megamenu">
+                    </a> */}
+                                {/* </div>
+                                </li> */}
+                                {/* <li className="nav-item dropdown dropdown-has-megamenu">
                                     <a
                                         href="#"
                                         className="nav-link dropdown-toggle"
@@ -164,13 +165,13 @@ export default function Header() {
                                             </div>
                                         </div>
                                     </div>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <a href="#" className="nav-link">
                                         Terms &amp; Conditions
                   </a>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <a href="#" className="nav-link">
                                         Events
                   </a>
@@ -179,13 +180,13 @@ export default function Header() {
                                     <a href="#" className="nav-link">
                                         Privacy Policy
                   </a>
-                                </li>
-                                <li className="close-responsive-menu js-close-responsive-menu">
+                                </li> */}
+                                {/* <li className="close-responsive-menu js-close-responsive-menu">
                                     <svg className="olymp-close-icon">
                                         <use xlinkHref="#olymp-close-icon" />
                                     </svg>
-                                </li>
-                                <li className="nav-item js-expanded-menu">
+                                </li> */}
+                                {/* <li className="nav-item js-expanded-menu">
                                     <a href="#" className="nav-link">
                                         <svg className="olymp-menu-icon">
                                             <use xlinkHref="#olymp-menu-icon" />
@@ -194,8 +195,8 @@ export default function Header() {
                                             <use xlinkHref="#olymp-close-icon" />
                                         </svg>
                                     </a>
-                                </li>
-                                <li className="shoping-cart more">
+                                </li> */}
+                                {/* <li className="shoping-cart more">
                                     <a href="#" className="nav-link">
                                         <svg className="olymp-shopping-bag-icon">
                                             <use xlinkHref="#olymp-shopping-bag-icon" />
@@ -307,10 +308,10 @@ export default function Header() {
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div className="cart-subtotal">
+                                        {/* <div className="cart-subtotal">
                                             Cart Subtotal:<span>$80</span>
-                                        </div>
-                                        <div className="cart-btn-wrap">
+                                        </div> */}
+                                {/* <div className="cart-btn-wrap">
                                             <a href="#" className="btn btn-primary btn-sm">
                                                 Go to Your Cart
                       </a>
@@ -319,8 +320,8 @@ export default function Header() {
                       </a>
                                         </div>
                                     </div>
-                                </li>
-                                <li className="menu-search-item">
+                                </li> */}
+                                {/* <li className="menu-search-item">
                                     <a
                                         href="#"
                                         className="nav-link"
@@ -331,7 +332,7 @@ export default function Header() {
                                             <use xlinkHref="#olymp-magnifying-glass-icon" />
                                         </svg>
                                     </a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

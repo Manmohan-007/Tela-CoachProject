@@ -4,15 +4,15 @@ export default function Post5() {
     return (
         <article className="hentry blog-post">
             <div className="post-thumb">
-                <img loading="lazy" src="https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297__340.jpg" alt="photo" width={369} height={259} />
+                <img loading="lazy" src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="photo" width={369} height={259} />
             </div>
             <div className="post-content">
                 <a href="#" className="post-category bg-blue-light">THE COMMUNITY</a>
-                <a href="#" className="h4 post-title">Olympus’s family picnic was a success!</a>
-                <p>Here’s a photo from last month’s photoshoot. We got really awesome shots for the new catalog.</p>
+                <a href="#" className="h4 post-title">Algorithm is quite Nice Subject !</a>
+                <p>We really learn lot of thing in DS and Algorithm .</p>
                 <div className="author-date">
                     by
-            <a className="h6 post__author-name fn" href="#">Maddy Simmons</a>
+            <a className="h6 post__author-name fn" href="#"> Maddy Simmons</a>
                     <div className="post__date">
                         <time className="published" dateTime="2017-03-24T18:18">
                             - 1 MONTH ago

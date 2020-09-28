@@ -5,20 +5,20 @@ class HeaderBP extends Component {
         return (
             <header className="header" id="site-header">
                 <div className="page-title">
-                    <h6>NewsFeed</h6>
+                    <h6>{this.props.title}</h6>
                 </div>
                 <div className="header-content-wrapper">
-                    <form className="search-bar w-search notification-list friend-requests">
+                    {/* <form className="search-bar w-search notification-list friend-requests">
                         <div className="form-group with-button">
                             <input className="form-control js-user-search" placeholder="Search here people or pages..." type="text" />
                             <button>
                                 <svg className="olymp-magnifying-glass-icon"><use xlinkHref="#olymp-magnifying-glass-icon" /></svg>
                             </button>
                         </div>
-                    </form>
-                    <a href="#" className="link-find-friend">Find Friends</a>
+                    </form> */}
+                    {/* <a href="#" className="link-find-friend">Find Friends</a> */}
                     <div className="control-block">
-                        <div className="control-icon more has-items">
+                        {/* <div className="control-icon more has-items">
                             <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
                             <div className="label-avatar bg-blue">6</div>
                             <div className="more-dropdown more-with-triangle triangle-top-center">
@@ -120,7 +120,7 @@ class HeaderBP extends Component {
                                 </div>
                                 <a href="#" className="view-all bg-blue">Check all your Events</a>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="control-icon more has-items">
                             <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
                             <div className="label-avatar bg-purple">2</div>
@@ -134,7 +134,7 @@ class HeaderBP extends Component {
                                     <ul className="notification-list chat-message">
                                         <li className="message-unread">
                                             <div className="author-thumb">
-                                                <img loading="lazy" src="img/avatar59-sm.jpg" alt="author" />
+                                                <img loading="lazy" src="https://images.unsplash.com/photo-1569466896818-335b1bedfcce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                                             </div>
                                             <div className="notification-event">
                                                 <a href="#" className="h6 notification-friend">Diana Jameson</a>
@@ -150,7 +150,7 @@ class HeaderBP extends Component {
                                         </li>
                                         <li>
                                             <div className="author-thumb">
-                                                <img loading="lazy" src="img/avatar60-sm.jpg" alt="author" />
+                                                <img loading="lazy" src="https://images.unsplash.com/photo-1518860308377-800f02d5498a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                                             </div>
                                             <div className="notification-event">
                                                 <a href="#" className="h6 notification-friend">Jake Parker</a>
@@ -166,7 +166,7 @@ class HeaderBP extends Component {
                                         </li>
                                         <li>
                                             <div className="author-thumb">
-                                                <img loading="lazy" src="img/avatar61-sm.jpg" alt="author" />
+                                                <img loading="lazy" src="https://images.unsplash.com/photo-1551712702-4b7335dd8706?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="author" />
                                             </div>
                                             <div className="notification-event">
                                                 <a href="#" className="h6 notification-friend">Elaine Dreyfuss</a>
@@ -180,7 +180,7 @@ class HeaderBP extends Component {
                                                 <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
                                             </div>
                                         </li>
-                                        <li className="chat-group">
+                                        {/* <li className="chat-group">
                                             <div className="author-thumb">
                                                 <img loading="lazy" src="img/avatar11-sm.jpg" alt="author" />
                                                 <img loading="lazy" src="img/avatar12-sm.jpg" alt="author" />
@@ -199,13 +199,13 @@ class HeaderBP extends Component {
                                             <div className="more">
                                                 <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
                                             </div>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 <a href="#" className="view-all bg-purple">View All Messages</a>
                             </div>
                         </div>
-                        <div className="control-icon more has-items">
+                        {/* <div className="control-icon more has-items">
                             <svg className="olymp-thunder-icon"><use xlinkHref="#olymp-thunder-icon" /></svg>
                             <div className="label-avatar bg-primary">8</div>
                             <div className="more-dropdown more-with-triangle triangle-top-center">
@@ -304,10 +304,10 @@ class HeaderBP extends Component {
                                 </div>
                                 <a href="#" className="view-all bg-primary">View All Notifications</a>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="author-page author vcard inline-items more">
                             <div className="author-thumb">
-                                <img alt="author" src="img/author-page.jpg" className="avatar" />
+                                <img alt="author" src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" className="avatar" />
                                 <span className="icon-status online" />
                                 <div className="more-dropdown more-with-triangle">
                                     <div className="mCustomScrollbar" data-mcs-theme="dark">
@@ -316,28 +316,28 @@ class HeaderBP extends Component {
                                         </div>
                                         <ul className="account-settings">
                                             <li>
-                                                <a href="29-YourAccount-AccountSettings.html">
+                                                <a href="#">
                                                     <svg className="olymp-menu-icon"><use xlinkHref="#olymp-menu-icon" /></svg>
                                                     <span>Profile Settings</span>
                                                 </a>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a href="36-FavPage-SettingsAndCreatePopup.html">
                                                     <svg className="olymp-star-icon left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="FAV PAGE"><use xlinkHref="#olymp-star-icon" /></svg>
                                                     <span>Create Fav Page</span>
                                                 </a>
-                                            </li>
+                                            </li> */}
                                             <li>
-                                                <a href="#">
+                                                <a href="/dashboard">
                                                     <svg className="olymp-logout-icon"><use xlinkHref="#olymp-logout-icon" /></svg>
                                                     <span>Log Out</span>
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div className="ui-block-title ui-block-title-small">
+                                        {/* <div className="ui-block-title ui-block-title-small">
                                             <h6 className="title">Chat Settings</h6>
-                                        </div>
-                                        <ul className="chat-settings">
+                                        </div> */}
+                                        {/* <ul className="chat-settings">
                                             <li>
                                                 <a href="#">
                                                     <span className="icon-status online" />
@@ -362,20 +362,20 @@ class HeaderBP extends Component {
                                                     <span>Invisible</span>
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                         <div className="ui-block-title ui-block-title-small">
                                             <h6 className="title">Custom Status</h6>
                                         </div>
-                                        <form className="form-group with-button custom-status">
+                                        {/* <form className="form-group with-button custom-status">
                                             <input className="form-control" placeholder type="text" defaultValue="Space Cowboy" />
                                             <button className="bg-purple">
                                                 <svg className="olymp-check-icon"><use xlinkHref="#olymp-check-icon" /></svg>
                                             </button>
-                                        </form>
-                                        <div className="ui-block-title ui-block-title-small">
+                                        </form> */}
+                                        {/* <div className="ui-block-title ui-block-title-small">
                                             <h6 className="title">About Olympus</h6>
-                                        </div>
-                                        <ul>
+                                        </div> */}
+                                        {/* <ul>
                                             <li>
                                                 <a href="#">
                                                     <span>Terms and Conditions</span>
@@ -396,7 +396,7 @@ class HeaderBP extends Component {
                                                     <span>Contact</span>
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>

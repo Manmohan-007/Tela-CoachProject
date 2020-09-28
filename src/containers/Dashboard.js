@@ -31,29 +31,29 @@ class Dashboard extends Component {
 
                 <LeftPanel />
                 <LeftPanelResponsive />
-                <RightPanel />
-                <RightPanelRes />
-                <HeaderBP />
+                {/* <RightPanel />
+                <RightPanelRes /> */}
+                <HeaderBP title={"Dashboard"} />
                 <HeaderBPRes />
                 <div className="header-spacer" />
                 <div className="container">
                     <div className="row">
                         {/* Main Content */}
                         <main className="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
-                            <div className="ui-block">
+                            {/* <div className="ui-block">
                                 <NewsFeedForm />
-                            </div>
+                            </div> */}
                             <div id="newsfeed-items-grid">
                                 <div className="ui-block">
                                     <Post5 />
                                 </div>
-                                <div className="ui-block">
+                                {/* <div className="ui-block">
                                     <Post6 />
                                     <Comments />
                                     <a href="#" className="more-comments">View more comments <span>+</span></a>
                                     <CommentForm />
-                                </div>
-                                <div className="ui-block">
+                                </div> */}
+                                {/* <div className="ui-block">
                                     <Post7 />
                                 </div>
                                 <div className="ui-block">
@@ -61,22 +61,22 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="ui-block">
                                     <Post9 />
-                                </div>
+                                </div> */}
                             </div>
                             <a id="load-more-button" href="#" className="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
                         </main>
                         {/* ... end Main Content */}
                         {/* Left Sidebar */}
                         <aside className="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
-                            <div className="ui-block">
+                            {/* <div className="ui-block">
                                 <Weather />
-                            </div>
+                            </div> */}
                             <div className="ui-block">
                                 <Calender />
                             </div>
                             <div className="ui-block">
                                 <div className="ui-block-title">
-                                    <h6 className="title">Pages You May Like</h6>
+                                    <h6 className="title">Published Courses</h6>
                                     <a href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
                                 </div>
                                 <FriendsPageEdit />
@@ -85,33 +85,31 @@ class Dashboard extends Component {
                         {/* ... end Left Sidebar */}
                         {/* Right Sidebar */}
                         <aside className="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-6 col-12">
-                            <div className="ui-block">
+                            {/* <div className="ui-block">
                                 <BirthDayAlert />
-                            </div>
+                            </div> */}
                             <div className="ui-block">
                                 <div className="ui-block-title">
-                                    <h6 className="title">Friend Suggestions</h6>
+                                    <h6 className="title">Top Courses</h6>
                                     <a href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
                                 </div>
                                 <FriendsPageEditSuggest />
                             </div>
                             <div className="ui-block">
                                 <div className="ui-block-title">
-                                    <h6 className="title">Activity Feed</h6>
+                                    <h6 className="title">Notifications</h6>
                                     <a href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
                                 </div>
                                 <ActivityFeed />
                             </div>
-                            <div className="ui-block">
-                                <WidgetAction />
-                            </div>
+
                         </aside>
                         {/* ... end Right Sidebar */}
                     </div>
                 </div>
                 <UpdateHeaderPic />
                 <ChoosePic />
-                <BackToTop />
+
                 <ChatResponsive />
             </div>
         )

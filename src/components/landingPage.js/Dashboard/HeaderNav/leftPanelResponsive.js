@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
-
+import Logo1 from "../../../../Logo/TLogo.jpg"
 class leftPanelResponsive extends Component {
     render() {
         return (
             <div className="fixed-sidebar fixed-sidebar-responsive">
                 <div className="fixed-sidebar-left sidebar--small" id="sidebar-left-responsive">
                     <a href="#" className="logo js-sidebar-open">
-                        <img loading="lazy" src="img/logo.png" alt="Olympus" />
+                        <img loading="lazy" src={Logo1} alt="Olympus" />
                     </a>
                 </div>
                 <div className="fixed-sidebar-left sidebar--large" id="sidebar-left-1-responsive">
                     <a href="#" className="logo">
                         <div className="img-wrap">
-                            <img loading="lazy" src="img/logo.png" alt="Olympus" />
+                            <img loading="lazy" src={Logo1} alt="Olympus" />
                         </div>
                         <div className="title-block">
-                            <h6 className="logo-title">olympus</h6>
+                            <h6 className="logo-title"></h6>
                         </div>
                     </a>
                     <div className="mCustomScrollbar" data-mcs-theme="dark">

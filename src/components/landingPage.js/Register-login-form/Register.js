@@ -41,7 +41,7 @@ class Register extends Component {
                         <a
                             className={`nav-link ${this.state.DisplayRegister ? "active" : null}`}
                             data-toggle="tab"
-                            href="#home"
+                            href="#Register"
                             role="tab"
                         >
                             <svg className="olymp-login-icon">
@@ -50,7 +50,7 @@ class Register extends Component {
                         </a>
                     </li>
                     <li onClick={(e) => this.LoginHandler(e)} className="nav-item" >
-                        <a className={`nav-link ${this.state.DisplayRegister ? null : "active"}`} data-toggle="tab" href="#profile" role="tab">
+                        <a className={`nav-link ${this.state.DisplayRegister ? null : "active"}`} data-toggle="tab" href="#login" role="tab">
                             <svg className="olymp-register-icon">
                                 <use xlinkHref="#olymp-register-icon" />
                             </svg>
@@ -59,7 +59,7 @@ class Register extends Component {
                 </ul>
                 <div className="tab-content">
                     <div className={`tab-pane ${this.state.DisplayRegister ? "active" : null}`} id="home" role="tabpanel">
-                        <div className="title h6">Register to Olympus</div>
+                        <div className="title h6">Register to Tela Coach</div>
                         <form className="content">
                             <div className="row">
                                 <div className="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -101,11 +101,11 @@ class Register extends Component {
                                         <div className="checkbox">
                                             <label>
                                                 <input name="optionsCheckboxes" className="InpModified" type="checkbox" />I accept
-                      the <a href="#">Terms and Conditions</a> of the website
+                      the <a href="/">Terms and Conditions</a> of the website
                     </label>
                                         </div>
                                     </div>
-                                    <a href="#" className="btn btn-purple btn-lg full-width">
+                                    <a href="/dashboard" className="btn btn-purple btn-lg full-width">
                                         Complete Registration!
                 </a>
                                 </div>
@@ -133,7 +133,7 @@ class Register extends Component {
                     </label>
                                         </div>
                                         <a
-                                            href="#"
+                                            href="/"
                                             className="forgot"
                                             data-toggle="modal"
                                             data-target="#restore-password"
@@ -141,26 +141,26 @@ class Register extends Component {
                                             Forgot my Password
                   </a>
                                     </div>
-                                    <a href="#" className="btn btn-lg btn-primary full-width">
+                                    <a href="/dashboard" className="btn btn-lg btn-primary full-width">
                                         Login
                 </a>
                                     <div className="or" />
-                                    <a
+                                    {/* <a
                                         href="#"
                                         className="btn btn-lg bg-facebook full-width btn-icon-left"
                                     >
                                         <i className="fab fa-facebook-f" aria-hidden="true" />
                   Login with Facebook
-                </a>
-                                    <a
+                </a> */}
+                                    {/* <a
                                         href="#"
                                         className="btn btn-lg bg-twitter full-width btn-icon-left"
                                     >
                                         <i className="fab fa-twitter" aria-hidden="true" />
                   Login with Twitter
-                </a>
+                </a> */}
                                     <p>
-                                        Don’t you have an account? <a href="#">Register Now!</a> it’s
+                                        Don’t you have an account? <a href="/">Register Now!</a> it’s
                   really simple and you can start enjoing all the benefits!
                 </p>
                                 </div>

@@ -6,36 +6,36 @@ class HeaderBPRes extends Component {
             <header className="header header-responsive" id="site-header-responsive">
                 <div className="header-content-wrapper">
                     <ul className="nav nav-tabs mobile-app-tabs" role="tablist">
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" data-toggle="tab" href="#request" role="tab">
                                 <div className="control-icon has-items">
                                     <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
                                     <div className="label-avatar bg-blue">6</div>
                                 </div>
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
-                            <a className="nav-link" data-toggle="tab" href="#chat" role="tab">
+                            <a className="nav-link" data-toggle="tab" href="#" role="tab">
                                 <div className="control-icon has-items">
                                     <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
                                     <div className="label-avatar bg-purple">2</div>
                                 </div>
                             </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" data-toggle="tab" href="#notification" role="tab">
                                 <div className="control-icon has-items">
                                     <svg className="olymp-thunder-icon"><use xlinkHref="#olymp-thunder-icon" /></svg>
                                     <div className="label-avatar bg-primary">8</div>
                                 </div>
                             </a>
-                        </li>
-                        <li className="nav-item">
+                        </li> */}
+                        {/* <li className="nav-item">
                             <a className="nav-link" data-toggle="tab" href="#search" role="tab">
                                 <svg className="olymp-magnifying-glass-icon"><use xlinkHref="#olymp-magnifying-glass-icon" /></svg>
                                 <svg className="olymp-close-icon"><use xlinkHref="#olymp-close-icon" /></svg>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 {/* Tab panes */}

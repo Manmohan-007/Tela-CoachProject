@@ -14,4 +14,101 @@
 }
 .landing-page {
   animation: none !important;
+  background-color: #008000 !important ;
+}
+.content-bg-wrap {
+  animation: none !important;
+  background-color: #008000 !important ;
+}
+.content-bg-wrap:before {
+  background-color: #008000 !important ;
+}
+
+.TelaCoach1 {
+  width: 70px;
+  height: 60px;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+.logoDash {
+  background-color: white !important;
+  padding: 0 !important;
+}
+.showLarge {
+  transform: translateX(0%) !important;
+}
+.LogoMainLeft {
+  height: 120px;
+  background-color: white;
+  padding: 15px;
+}
+.logoMainDiv {
+  height: 105px;
+  margin-left: 61px;
+  margin-top: -27px;
+}
+.logoWrapper {
+  height: 70px;
+  background-color: white;
+  padding: 15px;
+}
+.img-wrap {
+  height: 25px;
+}
+.left-menu a {
+  padding: 12px 0 12px 25px !important;
+}
+.img-wrap1 {
+  height: 57px;
+}
+.left-menu {
+  padding: 20px 0;
+  overflow-y: scroll !important;
+  height: 625px !important;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+  background: gainsboro;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+.author-thumb img {
+  border-radius: 100%;
+  overflow: hidden;
+  max-width: 100% !important;
+  display: block;
+}
+.top-header-thumb {
+  position: relative;
+  height: 400px;
+}
+.top-header-thumb img {
+  height: 100%;
+}
+.fixed-sidebar-left.sidebar--small {
+  width: 80px !important;
+}
+.logo-title {
+  margin-top: 33px !important;
+}
+@media (max-width: 768px) {
+  .fixed-sidebar .logo {
+    height: 50px;
+    background-color: white !important;
+    padding: 10px !important;
+  }
+  .mobile-app-tabs .nav-item {
+    width: auto;
+    margin-left: auto;
+  }
+}
+.header {
+  background-color: #3b863e !important;
 }
